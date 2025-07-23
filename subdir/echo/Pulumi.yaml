@@ -1,0 +1,14 @@
+name: ${PROJECT}
+description: ${DESCRIPTION}
+runtime: go
+template:
+  displayName: echo
+  description: A Pulumi program that says hello
+  important: true
+  config:
+    name:
+      description: The name to echo
+      default: Pulumi
+    secret:
+      description: A secret value for testing
+      secret: true
